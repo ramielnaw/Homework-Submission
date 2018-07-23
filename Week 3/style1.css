@@ -1,0 +1,116 @@
+.grid-item{
+  width: 25%;
+  float: left;
+  height:275px;
+  margin-top: 10px;
+  text-align: center;
+}
+.grid-item img{
+  width: 30%;
+}
+.drone1{
+  width: 50%;
+  height:275px;
+}
+.drone14{
+  clear: right;
+}
+
+ul{list-style-type: none;}
+
+body{
+  background: lightBlue;
+}
+
+
+/* tablet floats */
+@media screen and (max-width: 1023px) {
+  #grid-floats{
+    background-color: red;
+
+  }
+  .drone2{width: 50%;
+  }
+  .drone3{width: 33.3%;
+  }
+  .drone4{width: 33.3%;
+  }
+  .drone5{width: 33.3%;
+  }
+  .drone6{width: 33.3%;
+  }
+  .drone7{width: 33.3%;
+  }
+  .drone8{width: 33.3%;
+  }
+}
+/*  mobile floats*/
+@media screen and (max-width: 768px) {
+  #grid-floats{
+    background-color: yellow;
+  }
+  .drone1{width: 100%;
+  }
+  .drone2{width: 50%;
+  }
+  .drone3{width: 50%;
+  }
+  .drone4{width: 50%;
+  }
+  .drone5{width: 50%;
+  }
+}
+/* FLEX BOX */
+#grid-flex{
+  display: flex;
+  background-color: brown;
+  flex-wrap:wrap;
+  clear: left;
+}
+
+.header-two{
+  clear:left;
+}
+.droneflex1{
+  width: 50%;
+  height:275px;
+}
+/*tablet flex  */
+body{
+border-color: yellow;
+}
+@media screen and (max-width: 1023px) {
+  #grid-flex{
+    background-color: orange;
+  }
+  .droneflex2{width: 50%;
+  }
+  .droneflex3{width: 33.3%;
+  }
+  .droneflex4{width: 33.3%;
+  }
+  .droneflex5{width: 33.3%;
+  }
+  .droneflex6{width: 33.3%;
+  }
+  .droneflex7{width: 33.3%;
+  }
+  .droneflex8{width: 33.3%;
+  }
+  }
+/* mobile flex */
+@media screen and (max-width: 768px) {
+  #grid-flex{
+    background-color: yellow;
+  }
+  .droneflex1{width: 100%;
+  }
+  .droneflex2{width: 50%;
+  }
+  .droneflex3{width: 50%;
+  }
+  .droneflex4{width: 50%;
+  }
+  .droneflex5{width: 50%;
+  }
+}
