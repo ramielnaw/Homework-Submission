@@ -1,0 +1,23 @@
+  //1/ select * Employee table
+
+  // 2/ select First_Name
+     from  Employee table
+     where First_Name like s%
+
+  // 3/ select City_of_Residence
+     from Employee table
+
+  // 4/ select *
+     from Employee table
+     where City of residence like '%Toronto%' and '%Mississauga%'
+
+  // 5/ select EmployeeID, City_of_Residence
+     from Employee table
+     where EmployeeID >= 320 and City_of_Residence like '%Mississauga%' limit 3
+
+  // 6/ select EmployeeID
+     from Employee table
+      order by EmployeeID asc
+
+  // 7/ Insert into Employee table
+     Values( 700,Rami,Elnaw,Milton)
